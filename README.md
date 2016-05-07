@@ -1,2 +1,2 @@
 # kotik
-i love you 
+На уроках GoITeens я сделала пин-понг.
