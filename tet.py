@@ -10,8 +10,10 @@ def setup():
     size(600,400)
 def draw():
     global bx,by,bxs,bys,rx,ry,rx2,ry2
+    fill((180,15,70)
     rect(10,10,550,300)
-    rect(10,10,275,300)
+    line(285,40,285,280)
+    fill(255,50,150)
     triangle(255,310,315,310,285,280)
     triangle(255,10,315,10,285,40)
     rect(rx,ry,15,15)
@@ -32,7 +34,7 @@ def draw():
         if key == 'l' and ry2<=209:
         ry2=ry2+2
     if bx<=rx+20 and bx<=ry+100 and by>rx and by>=ry:
-         bxs==bxs
+         bxs=-bxs
     if bx>=rx2 and bx>=ry2 and by<=rx2-20 and by<=ry2+100
          bxs=-bxs
     if bx<=19:
