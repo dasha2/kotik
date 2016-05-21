@@ -33,7 +33,7 @@ def draw():
             bys=2
         if key == 'w' and ry>=11:
             ry=ry-2
-        if key == 's' and ry<=290:
+        if key == 's' and ry<=209:
             ry=ry+2
         if key == 'o' and ry2>=11:
             ry2=ry2-2
