@@ -10,7 +10,7 @@ def setup():
     size(600,400)
 def draw():
     global bx,by,bxs,bys,rx,ry,rx2,ry2
-    fill((180,15,70)
+    fill(180,15,70)
     rect(10,10,550,300)
     line(285,40,285,280)
     fill(255,50,150)
@@ -21,7 +21,7 @@ def draw():
     ellipse(bx,by,15,15)
     bx+=bxs
     by+=bys
-    if keyPressd:
+    if keyPressed:
         if key == 'p':
             bxs=-2
             bys=2
