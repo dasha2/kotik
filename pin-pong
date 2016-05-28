@@ -6,10 +6,18 @@ rx=10
 ry=100
 rx2=540
 ry2=100
+io=0
+ip=0
+t1=320
+t2=320
+t3=320
+t4=320
+t5=320
+t6=320
 def setup():
     size(600,400)
 def draw():
-    global bx,by,bxs,bys,rx,ry,rx2,ry2
+    global bx,by,bxs,bys,rx,ry,rx2,ry2,io,ip,t1,t2,t3,t4,t5,t6
     fill(180,15,70)
     rect(10,10,550,300)
     line(285,40,285,280)
@@ -57,3 +65,12 @@ def draw():
         by=150
     if by>=297:
         bys=-bys
+         if by>=19 and io==0:
+        io+=1
+        t1=800
+    if by>=19 and io==1:
+        io+=1
+        t2=800
+    if by>=19 and io==2:
+        io+=1
+        t3=800    
